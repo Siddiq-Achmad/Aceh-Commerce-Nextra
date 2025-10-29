@@ -1,36 +1,129 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌍 Aceh Commerce Project
 
-## Getting Started
+**Aceh Commerce Project** adalah platform e-commerce **multi-tenant dan multi-vendor** yang dirancang untuk memberdayakan **UMKM tradisional dan produsen lokal Aceh**.  
+Platform ini menghubungkan penjual (UMKM) dengan pasar lokal, nasional, dan internasional melalui sistem digital yang aman, modern, dan terdesentralisasi.
 
-First, run the development server:
+---
+
+## 🚀 Project Vision
+
+Membangun **ekosistem digital berbasis nilai lokal** yang dapat memperluas jangkauan pasar produk khas Aceh — seperti kopi Gayo, coklat, rempah, dan kerajinan tradisional — ke tingkat global.
+
+> _“From Local to Global — Empowering Aceh’s Authentic Economy.”_
+
+---
+
+## 🎯 Mission Statement
+
+1. Memberdayakan UMKM dan artisan lokal melalui digitalisasi bisnis.
+2. Menyediakan platform yang mudah digunakan, aman, dan scalable.
+3. Mengintegrasikan teknologi modern (microservices, multi-tenant, plugin ecosystem).
+4. Mendorong ekspor produk etnik dan otentik dari Aceh ke pasar global.
+5. Membentuk model ekonomi berkelanjutan berbasis komunitas dan teknologi.
+
+---
+
+## 🧩 Core Features
+
+| Category | Description |
+|-----------|--------------|
+| 🛍️ Multi-Vendor Marketplace | Setiap vendor dapat memiliki toko online sendiri di subdomain unik. |
+| 🧾 Product Catalog | Produk dapat dikategorikan berdasarkan asal daerah, bahan, atau jenis. |
+| 💳 Integrated Payment | Mendukung metode pembayaran lokal (QRIS, transfer) dan global. |
+| 📦 Order & Fulfillment | Sistem otomatis untuk pengelolaan pesanan, stok, dan pengiriman. |
+| 🌐 Multi-Language | Bahasa Indonesia, Inggris, dan dukungan bahasa Aceh. |
+| 🔒 Secure Architecture | Menggunakan Supabase, JWT Auth, dan Role-based Access Control. |
+| 🔌 Plugin Ecosystem | Dukungan ekstensi pihak ketiga untuk ekspor, analitik, dll. |
+
+---
+
+## 🧠 Technology Stack
+
+| Layer | Technology |
+|-------|-------------|
+| Frontend | Next.js 16 + ShadCN UI |
+| Backend | Hono.js + Supabase Edge Functions |
+| Database | PostgreSQL (Supabase Self-Hosted) |
+| Infrastructure | Proxmox + Docker + Coolify |
+| Auth System | Supabase JWT + Better-Auth |
+| Storage | Supabase Storage + Object Store |
+| CI/CD | GitHub Actions + Coolify Deploy |
+
+---
+
+## 📅 Project Phase Overview
+
+| Phase | Title | Status |
+|-------|--------|--------|
+| Phase 1 | Foundation & Prototype | ✅ Completed |
+| Phase 2 | Core Features | 🔄 In Progress |
+| Phase 3 | Launch | ⏳ Planned |
+| Phase 4 | Growth & Optimization | ⏳ Planned |
+| Phase 5 | Scale & Ecosystem | ⏳ Planned |
+
+---
+
+## 🧭 Repository Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+/docs
+├── BRD.md
+├── FRD.md
+├── TSD.md
+├── Architecture_Blueprint.md
+├── Phase1_Foundation_Prototype.md
+/assets
+├── c4/
+├── wireframes/
+├── diagrams.pdf
+/qa
+├── TestPlan.md
+/ops
+├── Runbook_Incidents.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🤝 Contributors & Governance
 
-## Learn More
+| Role | Name / Responsibility |
+|------|------------------------|
+| Project Owner | Siddiq Achmad |
+| Technical Lead | TBD |
+| Backend Engineer | TBD |
+| Frontend Engineer | TBD |
+| UX/UI Designer | TBD |
+| Marketing Lead | TBD |
+| QA Engineer | TBD |
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🏛️ License & Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is under a **proprietary license** managed by Luxima Studio.  
+Unauthorized commercial distribution is prohibited without written consent.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📫 Contact & Communication
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Website:** [https://acehcommerce.com](https://acehcommerce.com)
+- **Email:** contact@acehcommerce.com  
+- **Organization:** Luxima Studio (Aceh, Indonesia)
+
+---
+> _Aceh Commerce — Transforming Tradition into Global Digital Value._
+
+
+## Table of Contents (TOC)
+
+This TOC lists all documentation pages and assets for the Aceh Commerce Project repository with direct links.
+
+[Daftar Isi](TOC.md) - Table of Content
+
+---
+
+## Changelog
+
+[Changelog](CHANGELOG.md)
